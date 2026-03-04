@@ -1,4 +1,65 @@
-This repository contains summary statistics of a single-cell transcriptome-wide association study (scTWAS) for lung cancer, along with R codes for developing gene expression prediction models across 38 cell types in non-neoplastic lung tissues. Below please find the brief information for each file.
-1. enet.r: R code for developing gene expression prediction models in a given cell type using elastic net regression.
-2. utmost.r: R code for developing cross-cell-type gene expression prediction models among 38 cell types.
-Pseudobulk gene expression data needed for these two R codes are available for download at Gene Expression Omnibus (GEO; GSE227136). Genotype data needed for these codes were downloaded from dbGaP via our approved access to controlled-access dataset (phs003521). According to dbGaP data access policy, we are not allowed to publicly release any of these individual-level genotype data. Both pseudobulk gene expression and genotype data were originally reported in the paper by Heini M. Natri HM et al. Nat Genet 2024 (PMID: 38548990). We are happy to provide any details on the use of these codes to replicate our results to anyone who is interested in our work. Please direct your question to the primary coresponding author of this work, Dr. Yaohua Yang (vta8we@virginia.edu), who will respond in less than three working days. 
+Single-cell TWAS of Lung Cancer
+
+This repository contains summary statistics from a single-cell transcriptome-wide association study (scTWAS) of lung cancer, along with R scripts used to develop gene expression prediction models across 38 lung cell types in non-neoplastic lung tissues.
+
+Below is a brief description of the files included in this repository.
+
+Code
+1. enet.r
+
+R script for developing cell-type-specific gene expression prediction models using elastic net regression.
+
+2. utmost.r
+
+R script for developing cross-cell-type gene expression prediction models across 38 lung cell types using the UTMOST framework.
+
+Input Data
+
+The pseudobulk gene expression data required to run the scripts above are publicly available from the Gene Expression Omnibus (GEO):
+
+GEO accession: GSE227136
+
+Genotype data used for model development were obtained from dbGaP under controlled access:
+
+dbGaP accession: phs003521
+
+Due to dbGaP data access policies, individual-level genotype data cannot be publicly redistributed in this repository.
+
+Both the pseudobulk gene expression and genotype datasets were originally reported in:
+
+Natri HM et al., Nature Genetics, 2024
+PMID: 38548990
+
+Researchers interested in reproducing the analyses should obtain the required datasets directly from GEO and dbGaP.
+
+scTWAS Summary Statistics
+
+The repository also contains summary statistics from scTWAS analyses for overall lung cancer and major histological subtypes.
+
+3. Overall_Lung_Cancer.zip
+
+Summary statistics of scTWAS results for overall lung cancer risk, including all tested genes across the 38 lung cell types.
+
+4. LUAD.zip
+
+Summary statistics of scTWAS results for lung adenocarcinoma (LUAD).
+
+5. LSCC.zip
+
+Summary statistics of scTWAS results for lung squamous cell carcinoma (LSCC).
+
+6. SCLC.zip
+
+Summary statistics of scTWAS results for small-cell lung cancer (SCLC).
+
+Each archive contains association statistics for all genes tested in each of the 38 cell types.
+
+Contact
+
+For questions regarding the use of the code or replication of the analyses, please contact the corresponding author:
+
+Dr. Yaohua Yang
+University of Virginia
+Email: vta8we@virginia.edu
+
+We will do our best to respond within three working days.
