@@ -25,9 +25,6 @@ Contact
 
 For questions regarding the use of the code or replication of the analyses, please contact the corresponding author:
 
-Dr. Yaohua Yang
-Assistant Professor, Department of Genome Sciences
-University of Virginia School of Medicine
-Email: vta8we@virginia.edu
+Dr. Yaohua Yang. Assistant Professor of Genome Sciences, University of Virginia School of Medicine. Email: vta8we@virginia.edu
 
 We will do our best to respond within three working days.
